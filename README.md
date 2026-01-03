@@ -1,2 +1,2 @@
 # Muert_StateEngine
-A GameState Engine that loads state dynamically via dll
+A c++ GameState Engine that loads state dynamically via dll
