@@ -1,0 +1,46 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="MuertEngine.Enum/MuertEngine.Enum.vcxproj" Id="30826675-b525-4a91-8bab-bcd32b4f9fec" />
+  <Project Path="MuertEngine.Global/MuertEngine.Global.vcxproj" Id="b1cda160-d58e-4004-8605-8cf249474d47">
+    <BuildDependency Project="MuertEngine.Random/MuertEngine.Random.vcxproj" />
+  </Project>
+  <Project Path="MuertEngine.Random/MuertEngine.Random.vcxproj" Id="ea9f9497-dab6-4e5e-9ae2-c3b78d70b80d" />
+  <Project Path="MuertEngine.State.Sys/MuertEngine.State.Sys.vcxproj" Id="677db7d8-b01a-4069-8e0a-4ee1e4808080">
+    <BuildDependency Project="MuertEngine.Global/MuertEngine.Global.vcxproj" />
+  </Project>
+  <Project Path="MuertEngine.State/MuertEngine.State.vcxproj" Id="0a5ba01c-1bb2-4afa-b1b8-2fe040aef23c">
+    <BuildDependency Project="MuertEngine.Global/MuertEngine.Global.vcxproj" />
+    <BuildDependency Project="MuertEngine.Random/MuertEngine.Random.vcxproj" />
+    <BuildDependency Project="MuertEngine.State.Sys/MuertEngine.State.Sys.vcxproj" />
+  </Project>
+  <Project Path="MuertEngine/MuertEngine.vcxproj" Id="d89fd000-8828-43d8-a829-270a87c28f59">
+    <BuildDependency Project="MuertEngine.State/MuertEngine.State.vcxproj" />
+  </Project>
+  <Properties Name="TeamFoundationVersionControl">
+    <Property Name="SccEnterpriseProvider" Value="{4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}" />
+    <Property Name="SccLocalPath0" Value="." />
+    <Property Name="SccLocalPath1" Value="MuertEngine" />
+    <Property Name="SccLocalPath2" Value="MuertEngine.State" />
+    <Property Name="SccLocalPath3" Value="MuertEngine.Global" />
+    <Property Name="SccLocalPath4" Value="MuertEngine.Random" />
+    <Property Name="SccLocalPath5" Value="MuertEngine.Enum" />
+    <Property Name="SccLocalPath6" Value="MuertEngine.State.Sys" />
+    <Property Name="SccNumberOfProjects" Value="7" />
+    <Property Name="SccProjectName1" Value="MuertEngine" />
+    <Property Name="SccProjectName2" Value="MuertEngine.State" />
+    <Property Name="SccProjectName3" Value="MuertEngine.Global" />
+    <Property Name="SccProjectName4" Value="MuertEngine.Random" />
+    <Property Name="SccProjectName5" Value="MuertEngine.Enum" />
+    <Property Name="SccProjectName6" Value="MuertEngine.State.Sys" />
+    <Property Name="SccProjectUniqueName1" Value="MuertEngine\\MuertEngine.vcxproj" />
+    <Property Name="SccProjectUniqueName2" Value="MuertEngine.State\\MuertEngine.State.vcxproj" />
+    <Property Name="SccProjectUniqueName3" Value="MuertEngine.Global\\MuertEngine.Global.vcxproj" />
+    <Property Name="SccProjectUniqueName4" Value="MuertEngine.Random\\MuertEngine.Random.vcxproj" />
+    <Property Name="SccProjectUniqueName5" Value="MuertEngine.Enum\\MuertEngine.Enum.vcxproj" />
+    <Property Name="SccProjectUniqueName6" Value="MuertEngine.State.Sys\\MuertEngine.State.Sys.vcxproj" />
+    <Property Name="SccTeamFoundationServer" Value="https://polinsin.visualstudio.com/" />
+  </Properties>
+</Solution>
