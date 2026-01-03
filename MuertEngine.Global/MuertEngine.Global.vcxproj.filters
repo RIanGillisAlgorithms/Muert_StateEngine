@@ -1,0 +1,270 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\string">
+      <UniqueIdentifier>{7cea72ea-0a72-4e8a-bc93-5d4d8930799c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\wrapper">
+      <UniqueIdentifier>{95764a88-1fc8-45d2-90ad-b4b749f89055}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\wrapper\wrapped">
+      <UniqueIdentifier>{29d5090a-fba5-4377-a7cc-a020221a59e5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\string">
+      <UniqueIdentifier>{1b8d6e5d-af97-4bdd-ba30-5c48802171b3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\wrapper">
+      <UniqueIdentifier>{aeec533d-1782-4b67-8d87-129872142f8b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\wrapper\wrapped">
+      <UniqueIdentifier>{3fce3682-2ed5-4110-8b8e-6b33fd33dad9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\logging">
+      <UniqueIdentifier>{cdc44b5e-0b05-46c0-b430-3d8464d7043f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\logging">
+      <UniqueIdentifier>{323af326-3a97-4c95-8824-3c338872690c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\infrastructure">
+      <UniqueIdentifier>{fb83492a-88ba-4c43-b5d3-79251a97d93c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\infrastructure\spatial">
+      <UniqueIdentifier>{1837d439-f87e-46f2-b534-f5ccd7ac3852}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\infrastructure">
+      <UniqueIdentifier>{64b2ef72-1dc5-4b47-acd3-10856a8062e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\infrastructure\spatial">
+      <UniqueIdentifier>{444c1bb2-2920-42a3-865c-026360c5225c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\infrastructure\defaultPredicate">
+      <UniqueIdentifier>{0998927a-59f8-4761-a088-b2c25bca8f9c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\display">
+      <UniqueIdentifier>{e740ec2a-180f-4944-bbab-e0bf404df9a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\display">
+      <UniqueIdentifier>{0e81ae69-710f-4d34-9b38-ea29399b93bf}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="framework.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TimeWrapper.h">
+      <Filter>Header Files\wrapper</Filter>
+    </ClInclude>
+    <ClInclude Include="IanTime.h">
+      <Filter>Header Files\wrapper\wrapped</Filter>
+    </ClInclude>
+    <ClInclude Include="globalLogging.h">
+      <Filter>Header Files\logging</Filter>
+    </ClInclude>
+    <ClInclude Include="nonLeakyRectangularString.h">
+      <Filter>Header Files\string</Filter>
+    </ClInclude>
+    <ClInclude Include="nonLeakyRectangularString_raw.h">
+      <Filter>Header Files\string</Filter>
+    </ClInclude>
+    <ClInclude Include="numberToWord.h">
+      <Filter>Header Files\string</Filter>
+    </ClInclude>
+    <ClInclude Include="rectangularStrings.h">
+      <Filter>Header Files\string</Filter>
+    </ClInclude>
+    <ClInclude Include="identificationContainers.h">
+      <Filter>Header Files\infrastructure</Filter>
+    </ClInclude>
+    <ClInclude Include="globalGenerics.h">
+      <Filter>Header Files\infrastructure</Filter>
+    </ClInclude>
+    <ClInclude Include="GLPrimitives.h">
+      <Filter>Header Files\infrastructure</Filter>
+    </ClInclude>
+    <ClInclude Include="mathFunctions.h">
+      <Filter>Header Files\infrastructure</Filter>
+    </ClInclude>
+    <ClInclude Include="structureDefinitions.h">
+      <Filter>Header Files\infrastructure</Filter>
+    </ClInclude>
+    <ClInclude Include="coordFunctions.h">
+      <Filter>Header Files\infrastructure\spatial</Filter>
+    </ClInclude>
+    <ClInclude Include="direction.h">
+      <Filter>Header Files\infrastructure\spatial</Filter>
+    </ClInclude>
+    <ClInclude Include="line2.h">
+      <Filter>Header Files\infrastructure\spatial</Filter>
+    </ClInclude>
+    <ClInclude Include="pent2.h">
+      <Filter>Header Files\infrastructure\spatial</Filter>
+    </ClInclude>
+    <ClInclude Include="point2.h">
+      <Filter>Header Files\infrastructure\spatial</Filter>
+    </ClInclude>
+    <ClInclude Include="point2_2.h">
+      <Filter>Header Files\infrastructure\spatial</Filter>
+    </ClInclude>
+    <ClInclude Include="point3.h">
+      <Filter>Header Files\infrastructure\spatial</Filter>
+    </ClInclude>
+    <ClInclude Include="point3_2.h">
+      <Filter>Header Files\infrastructure\spatial</Filter>
+    </ClInclude>
+    <ClInclude Include="point3_hash.h">
+      <Filter>Header Files\infrastructure\spatial</Filter>
+    </ClInclude>
+    <ClInclude Include="quad2.h">
+      <Filter>Header Files\infrastructure\spatial</Filter>
+    </ClInclude>
+    <ClInclude Include="spiralCord2d.h">
+      <Filter>Header Files\infrastructure\spatial</Filter>
+    </ClInclude>
+    <ClInclude Include="triangle2.h">
+      <Filter>Header Files\infrastructure\spatial</Filter>
+    </ClInclude>
+    <ClInclude Include="typeCombos.h">
+      <Filter>Header Files\infrastructure</Filter>
+    </ClInclude>
+    <ClInclude Include="qUniCoord_condensed.h">
+      <Filter>Header Files\infrastructure\spatial</Filter>
+    </ClInclude>
+    <ClInclude Include="qUniCoord.h">
+      <Filter>Header Files\infrastructure\spatial</Filter>
+    </ClInclude>
+    <ClInclude Include="Int0To100Predicate.h">
+      <Filter>Header Files\infrastructure\defaultPredicate</Filter>
+    </ClInclude>
+    <ClInclude Include="DefaultPredicate.h">
+      <Filter>Header Files\infrastructure\defaultPredicate</Filter>
+    </ClInclude>
+    <ClInclude Include="globalIncludes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tileType.h">
+      <Filter>Header Files\display</Filter>
+    </ClInclude>
+    <ClInclude Include="tileAtlas.h">
+      <Filter>Header Files\display</Filter>
+    </ClInclude>
+    <ClInclude Include="tileDisplayObject.h">
+      <Filter>Header Files\display</Filter>
+    </ClInclude>
+    <ClInclude Include="stringManipulation.h">
+      <Filter>Header Files\string</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TimeWrapper.cpp">
+      <Filter>Source Files\wrapper</Filter>
+    </ClCompile>
+    <ClCompile Include="IanTime.cpp">
+      <Filter>Source Files\wrapper\wrapped</Filter>
+    </ClCompile>
+    <ClCompile Include="globalLogging.cpp">
+      <Filter>Source Files\logging</Filter>
+    </ClCompile>
+    <ClCompile Include="rectangularStrings.cpp">
+      <Filter>Source Files\string</Filter>
+    </ClCompile>
+    <ClCompile Include="numberToWord.cpp">
+      <Filter>Source Files\string</Filter>
+    </ClCompile>
+    <ClCompile Include="nonLeakyRectangularString_raw.cpp">
+      <Filter>Source Files\string</Filter>
+    </ClCompile>
+    <ClCompile Include="nonLeakyRectangularString.cpp">
+      <Filter>Source Files\string</Filter>
+    </ClCompile>
+    <ClCompile Include="globalGenerics.cpp">
+      <Filter>Source Files\infrastructure</Filter>
+    </ClCompile>
+    <ClCompile Include="GLPrimitives.cpp">
+      <Filter>Source Files\infrastructure</Filter>
+    </ClCompile>
+    <ClCompile Include="mathFunctions.cpp">
+      <Filter>Source Files\infrastructure</Filter>
+    </ClCompile>
+    <ClCompile Include="structureDefinitions.cpp">
+      <Filter>Source Files\infrastructure</Filter>
+    </ClCompile>
+    <ClCompile Include="coordFunctions.cpp">
+      <Filter>Source Files\infrastructure\spatial</Filter>
+    </ClCompile>
+    <ClCompile Include="direction.cpp">
+      <Filter>Source Files\infrastructure\spatial</Filter>
+    </ClCompile>
+    <ClCompile Include="line2.cpp">
+      <Filter>Source Files\infrastructure\spatial</Filter>
+    </ClCompile>
+    <ClCompile Include="pent2.cpp">
+      <Filter>Source Files\infrastructure\spatial</Filter>
+    </ClCompile>
+    <ClCompile Include="point2.cpp">
+      <Filter>Source Files\infrastructure\spatial</Filter>
+    </ClCompile>
+    <ClCompile Include="point3.cpp">
+      <Filter>Source Files\infrastructure\spatial</Filter>
+    </ClCompile>
+    <ClCompile Include="point2_2.cpp">
+      <Filter>Source Files\infrastructure\spatial</Filter>
+    </ClCompile>
+    <ClCompile Include="point3_2.cpp">
+      <Filter>Source Files\infrastructure\spatial</Filter>
+    </ClCompile>
+    <ClCompile Include="point3_hash.cpp">
+      <Filter>Source Files\infrastructure\spatial</Filter>
+    </ClCompile>
+    <ClCompile Include="quad2.cpp">
+      <Filter>Source Files\infrastructure\spatial</Filter>
+    </ClCompile>
+    <ClCompile Include="spiralCord2d.cpp">
+      <Filter>Source Files\infrastructure\spatial</Filter>
+    </ClCompile>
+    <ClCompile Include="triangle2.cpp">
+      <Filter>Source Files\infrastructure\spatial</Filter>
+    </ClCompile>
+    <ClCompile Include="typeCombos.cpp">
+      <Filter>Source Files\infrastructure</Filter>
+    </ClCompile>
+    <ClCompile Include="qUniCoord.cpp">
+      <Filter>Source Files\infrastructure\spatial</Filter>
+    </ClCompile>
+    <ClCompile Include="qUniCoord_condensed.cpp">
+      <Filter>Source Files\infrastructure\spatial</Filter>
+    </ClCompile>
+    <ClCompile Include="tileType.cpp">
+      <Filter>Source Files\display</Filter>
+    </ClCompile>
+    <ClCompile Include="tileAtlas.cpp">
+      <Filter>Source Files\display</Filter>
+    </ClCompile>
+    <ClCompile Include="tileDisplayObject.cpp">
+      <Filter>Source Files\display</Filter>
+    </ClCompile>
+    <ClCompile Include="stringManipulation.cpp">
+      <Filter>Source Files\string</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
