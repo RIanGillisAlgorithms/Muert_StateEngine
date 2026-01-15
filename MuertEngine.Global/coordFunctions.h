@@ -24,16 +24,8 @@ namespace CORDFUNC
 
 	
 
-	//Point2D coord32(int number);
-
-	//int numb32(Point2D inp);
-
 	extern "C" COORD_FUNCTIONS_H_API Point2D dirToCoord(int dir, bool eightDir);
 	extern "C" COORD_FUNCTIONS_H_API int coordToDir(Point2D coord, bool eightDir);
-
-	//CORD_3D dirToCoord_3D(int dir, bool eightDir);
-	//int coordToDir_3D(CORD_3D coord, bool eightDir);
-
 
 	extern "C" COORD_FUNCTIONS_H_API Point2D spiralIndexToCoordOffset2d(int pos);
 

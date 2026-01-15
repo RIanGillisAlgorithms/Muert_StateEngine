@@ -13,18 +13,21 @@
 #endif
 
 
-// Include GLEW
-#include <GL/glew.h>
+//// Include GLEW
+//#include <GL/glew.h>
+//
+//#define GLFW_INCLUDE_GLU
+//// Include GLFW
+//#include "glfw3.h"
+////#include "../MuertGlobal/texture.hpp"
+//
+//// Include GLM
+//#include <glm/glm.hpp>
+//using namespace glm;
 
-#define GLFW_INCLUDE_GLU
-// Include GLFW
-#include "glfw3.h"
-//#include "../MuertGlobal/texture.hpp"
 
-// Include GLM
-#include <glm/glm.hpp>
-using namespace glm;
-
+typedef unsigned int GLuint;
+typedef double GLdouble;
 
 
 #endif
