@@ -24,9 +24,6 @@
     <ClInclude Include="stateHolder.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Header.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="gameState.h">
       <Filter>Header Files</Filter>
     </ClInclude>

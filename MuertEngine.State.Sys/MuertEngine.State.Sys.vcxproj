@@ -117,14 +117,15 @@
       <LanguageStandard>stdcpp20</LanguageStandard>
       <PrecompiledHeader>Use</PrecompiledHeader>
       <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
-      <AdditionalIncludeDirectories>C:\CPP\glm-master;C:\CPP\glfw-master\include;C:\CPP\glew-2.1.0\include;</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>
+      </AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <EnableUAC>false</EnableUAC>
-      <AdditionalLibraryDirectories>..\$(IntDir);C:\cpp\glfw-master\bin\src\Debug;C:\cpp\glew-2.1.0\lib\Debug\x64;</AdditionalLibraryDirectories>
-      <AdditionalDependencies>MuertEngine.Global.lib;glfw3.lib;glew32d.lib;$(CoreLibraryDependencies);%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>..\$(IntDir);</AdditionalLibraryDirectories>
+      <AdditionalDependencies>MuertEngine.Global.lib;$(CoreLibraryDependencies);%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">

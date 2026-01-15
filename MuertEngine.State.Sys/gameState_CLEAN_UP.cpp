@@ -51,7 +51,7 @@ namespace GAME
 			//that kind of ruins that structural strategy
 			//GLOBAL::Log("gameState Clean Up.Unload Objects");
 			//Unload all objects that are still alive then quit
-			glfwTerminate();
+			//glfwTerminate();
 			return false;
 		}
 		return false;

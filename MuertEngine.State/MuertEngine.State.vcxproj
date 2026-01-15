@@ -117,20 +117,20 @@
       <LanguageStandard>stdcpp20</LanguageStandard>
       <PrecompiledHeader>Use</PrecompiledHeader>
       <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
-      <AdditionalIncludeDirectories>C:\CPP\glm-master;C:\CPP\glfw-master\include;C:\CPP\glew-2.1.0\include;</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>
+      </AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <EnableUAC>false</EnableUAC>
-      <AdditionalLibraryDirectories>..\$(IntDir);C:\cpp\glfw-master\bin\src\Debug;C:\cpp\glew-2.1.0\lib\Debug\x64;</AdditionalLibraryDirectories>
-      <AdditionalDependencies>MuertEngine.Random.lib;MuertEngine.Global.lib;glfw3.lib;glew32d.lib;$(CoreLibraryDependencies);%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>..\$(IntDir)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>MuertEngine.Random.lib;MuertEngine.Global.lib;$(CoreLibraryDependencies);%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
     <PostBuildEvent>
       <Command>xcopy /y /d "..\$(IntDir)MuertEngine.Random.dll" "$(OutDir)"
 xcopy /y /d "..\$(IntDir)MuertEngine.Global.dll" "$(OutDir)"
-xcopy /y /d "..\$(IntDir)MuertEngine.State.Sys.dll" "$(OutDir)"
-xcopy /y /d "C:\cpp\glew-2.1.0\bin\Debug\x64\glew32d.dll" "$(OutDir)"</Command>
+xcopy /y /d "..\$(IntDir)MuertEngine.State.Sys.dll" "$(OutDir)"</Command>
     </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
@@ -155,7 +155,6 @@ xcopy /y /d "C:\cpp\glew-2.1.0\bin\Debug\x64\glew32d.dll" "$(OutDir)"</Command>
     <ClInclude Include="dlfcn.hpp" />
     <ClInclude Include="framework.h" />
     <ClInclude Include="gameState.h" />
-    <ClInclude Include="Header.h" />
     <ClInclude Include="pch.h" />
     <ClInclude Include="stateHolder.h" />
   </ItemGroup>
